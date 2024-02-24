@@ -1,4 +1,4 @@
-class OpenapiToHurlBin < Formula
+class OpenapiToHurl < Formula
   version 'v1.0.0'
   desc "Turn an openapi specification into hurl files"
   homepage "https://github.com/ethancarlsson/openapi-to-hurl"

@@ -1,15 +1,15 @@
 class OpenapiToHurl < Formula
-  version 'v1.0.0'
+  version '1.1.0'
   desc "Turn an openapi specification into hurl files"
   homepage "https://github.com/ethancarlsson/openapi-to-hurl"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ethancarlsson/openapi-to-hurl/releases/download/#{version}/openapi-to-hurl-1.0.0-arm64.tar.gz"
-        sha256 "2e4631394886f39bf68c1f0e0f2163dcb7fd00895a495d6e7064735153019b78"
+      url "https://github.com/ethancarlsson/openapi-to-hurl/releases/download/v#{version}/openapi-to-hurl-#{version}-arm64.tar.gz"
+        sha256 "47fce4808458a07bc47ac2ea8182e0dac5745925510c25ae3063bbc04c90ffaa"
     elsif Hardware::CPU.intel?
-      url "https://github.com/ethancarlsson/openapi-to-hurl/releases/download/#{version}/openapi-to-hurl-1.0.0-x86_64-apple-darwin.tar.gz"
-        sha256 "adea9bbfa36f7c6fe8364aba3aae0f6286d97b983ea8e84c695ae014a85d8b74"
+      url "https://github.com/ethancarlsson/openapi-to-hurl/releases/download/v#{version}/openapi-to-hurl-#{version}-x86_64-apple-darwin.tar.gz"
+        sha256 "460487218bf69737e6d7a5f82dfeb28df1718745ddc3b030aeed8850f2e9ec2a"
     end
   end
 
